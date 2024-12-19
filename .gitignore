@@ -1,0 +1,30 @@
+# Rider-specific files
+.idea/
+*.sln.iml
+
+# .NET specific files
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.log
+*.pdb
+*.cache
+*.db
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# VS Code and Rider settings
+.vscode/
+.idea/
+
+# Configuration and package management files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+node_modules/
+packages/
