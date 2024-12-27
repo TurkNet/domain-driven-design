@@ -1,6 +1,6 @@
 # Domain Driven Design
 
-This is a sample project that focuses on implementing the best practices of domain driven design pattern.
+This is a sample project that focuses on implementing the best practices of domain driven design.
 
 ## What is Domain Driven Design
 
@@ -15,10 +15,10 @@ Domain-Driven Design (DDD) is a software development approach that helps develop
 
 ## Getting Started
 1. Create docker image
-   ```bash
+  ```bash
     docker run --name my-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=123456 -e POSTGRES_DB=postgres -p 5432:5432 -d postgres 
-    ```
-3. Apply migration
+  ```
+2. Apply migration
   ```bash
     dotnet ef database update --project Tn.Inventory.Infrastructure --startup-project Tn.Inventory.Presentation
   ```
