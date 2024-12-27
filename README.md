@@ -18,7 +18,7 @@ Domain-Driven Design (DDD) is a software development approach that helps develop
    ```bash
     docker run --name my-postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=123456 -e POSTGRES_DB=postgres -p 5432:5432 -d postgres 
     ```
-2. Apply migration
+3. Apply migration
   ```bash
     dotnet ef database update --project Tn.Inventory.Infrastructure --startup-project Tn.Inventory.Presentation
   ```
